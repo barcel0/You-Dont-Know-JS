@@ -763,6 +763,10 @@ There's a good chance that with just this brief glimpse at closure and the modul
 
 From here, go read the *Scope & Closures* title of this series for a much more in-depth exploration.
 
+
+****************************** HERE ******************************
+
+
 ## `this` Identifier
 
 Another very commonly misunderstood concept in JavaScript is the `this` identifier. Again, there's a couple of chapters on it in the *this & Object Prototypes* title of this series, so here we'll just briefly introduce the concept.
