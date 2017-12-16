@@ -1,3 +1,4 @@
+*************************** HERE
 # You Don't Know JS: Scope & Closures
 # Chapter 2: Lexical Scope
 
