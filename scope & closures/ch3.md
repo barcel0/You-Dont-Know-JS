@@ -48,7 +48,6 @@ Function scope encourages the idea that all variables belong to the function, an
 On the other hand, if you don't take careful precautions, variables existing across the entirety of a scope can lead to some unexpected pitfalls.
 
 
-********************* HERE
 ## Hiding In Plain Scope
 
 The traditional way of thinking about functions is that you declare a function, and then add code inside it. But the inverse thinking is equally powerful and useful: take any arbitrary section of code you've written, and wrap a function declaration around it, which in effect "hides" the code.
@@ -153,6 +152,8 @@ Another option for collision avoidance is the more modern "module" approach, usi
 It should be observed that these tools do not possess "magic" functionality that is exempt from lexical scoping rules. They simply use the rules of scoping as explained here to enforce that no identifiers are injected into any shared scope, and are instead kept in private, non-collision-susceptible scopes, which prevents any accidental scope collisions.
 
 As such, you can code defensively and achieve the same results as the dependency managers do without actually needing to use them, if you so choose. See the Chapter 5 for more information about the module pattern.
+
+******************************* HERE
 
 ## Functions As Scopes
 
