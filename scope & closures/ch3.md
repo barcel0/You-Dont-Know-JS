@@ -47,6 +47,8 @@ Function scope encourages the idea that all variables belong to the function, an
 
 On the other hand, if you don't take careful precautions, variables existing across the entirety of a scope can lead to some unexpected pitfalls.
 
+
+********************* HERE
 ## Hiding In Plain Scope
 
 The traditional way of thinking about functions is that you declare a function, and then add code inside it. But the inverse thinking is equally powerful and useful: take any arbitrary section of code you've written, and wrap a function declaration around it, which in effect "hides" the code.
