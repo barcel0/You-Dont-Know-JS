@@ -153,7 +153,6 @@ It should be observed that these tools do not possess "magic" functionality that
 
 As such, you can code defensively and achieve the same results as the dependency managers do without actually needing to use them, if you so choose. See the Chapter 5 for more information about the module pattern.
 
-******************************* HERE
 
 ## Functions As Scopes
 
@@ -325,6 +324,7 @@ var a = 2;
 
 The `def` function expression is defined in the second-half of the snippet, and then passed as a parameter (also called `def`) to the `IIFE` function defined in the first half of the snippet. Finally, the parameter `def` (the function) is invoked, passing `window` in as the `global` parameter.
 
+******************************* HERE
 ## Blocks As Scopes
 
 While functions are the most common unit of scope, and certainly the most wide-spread of the design approaches in the majority of JS in circulation, other units of scope are possible, and the usage of these other scope units can lead to even better, cleaner to maintain code.
