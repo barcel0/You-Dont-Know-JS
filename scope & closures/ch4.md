@@ -1,4 +1,3 @@
-******************* HERE
 # You Don't Know JS: Scope & Closures
 # Chapter 4: Hoisting
 
