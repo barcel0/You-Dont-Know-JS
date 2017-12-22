@@ -134,7 +134,7 @@ bar(); // 2
 ```
 
 Whatever facility we use to *transport* an inner function outside of its lexical scope, it will maintain a scope reference to where it was originally declared, and wherever we execute it, that closure will be exercised.
-*********************************** HERE
+
 ## Now I Can See
 
 The previous code snippets are somewhat academic and artificially constructed to illustrate *using closure*. But I promised you something more than just a cool new toy. I promised that closure was something all around you in your existing code. Let us now *see* that truth.
@@ -309,6 +309,8 @@ for (let i=1; i<=5; i++) {
 ```
 
 How cool is that? Block scoping and closure working hand-in-hand, solving all the world's problems. I don't know about you, but that makes me a happy JavaScripter.
+
+*********************************** HERE
 
 ## Modules
 
